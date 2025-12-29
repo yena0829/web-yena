@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>웹콘텐츠 기말과제</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>웹 콘텐츠 제작 기말과제</h1>
+    <p>연성대학교 시각디자인과 정예나</p>
+  </header>
+
+  <section>
+    <h2>자기소개</h2>
+    <p>
+      안녕하세요. 본 웹사이트는 웹 콘텐츠 제작 수업에서 배운
+      HTML, CSS, JavaScript를 활용하여 제작한 기말과제입니다.
+    </p>
+  </section>
+
+  <section>
+    <h2>수업에서 배운 내용</h2>
+    <ul>
+      <li>HTML을 이용한 웹 페이지 구조</li>
+      <li>CSS를 이용한 디자인 및 레이아웃</li>
+      <li>JavaScript를 활용한 인터랙션</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>인터랙션 예제</h2>
+    <button onclick="changeColor()">배경색 변경</button>
+  </section>
+
+  <footer>
+    <p>ⓒ 2025 웹 콘텐츠 제작 기말과제</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
